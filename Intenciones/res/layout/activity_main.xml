@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.intenciones.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/boton_web"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir pagina web" 
+        android:onClick="pgWeb"/>
+
+    <Button
+        android:id="@+id/boton_llamada"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Llamada de telefono" 
+        android:onClick="llamadaTelefono"/>
+
+    <Button
+        android:id="@+id/boton_mapas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Maps"
+        android:onClick="googleMaps" />
+
+    <Button
+        android:id="@+id/boton_foto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomar foto" 
+        android:onClick="tomarFoto"/>
+
+    <Button
+        android:id="@+id/boton_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mandar email"
+        android:onClick="mandarCorreo" />
+
+    <Button
+        android:id="@+id/boton_marcar_numero"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Marcar numero de telefono" 
+        android:onClick="dial"/>
+
+    
+
+   
+
+</LinearLayout>
